@@ -26,6 +26,7 @@ galleryItems.forEach((el) => {
   galleryImg.setAttribute("data-source", el.original);
   galleryImg.alt = el.description;
 
+  
   galleryLink.append(galleryImg);
   item.push(galleryLink);
 });
